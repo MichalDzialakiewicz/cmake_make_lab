@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/polygon.h
+
+../include/rectangle.h
+polygon.h
+../include/polygon.h
+
+../include/triangle.h
+polygon.h
+../include/polygon.h
+
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/main.cpp
+iostream
+-
+polygon.h
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/polygon.h
+rectangle.h
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/rectangle.h
+triangle.h
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/triangle.h
+
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/polygon.cpp
+polygon.h
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/polygon.h
+
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/rectangle.cpp
+rectangle.h
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/rectangle.h
+
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/triangle.cpp
+triangle.h
+/home/michal/MichalDzialakiewicz/cmake_make_lab/my_step_4/src/triangle.h
+
